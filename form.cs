@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace Solvish
 {
-    public partial class Form1 : Form
+    public partial class Login_form : Form
     {
-        public Form1()
+        public Login_form()
         {
             InitializeComponent();
-            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void form_Load(object sender, EventArgs e)
         {
-            Login_form f = new Login_form();
-            f.Show();
-            this.Hide();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
