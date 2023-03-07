@@ -24,5 +24,12 @@ namespace Solvish
             f.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            signup_form f1 = new signup_form();
+            f1.Show();
+            this.Hide();
+        }
     }
 }
