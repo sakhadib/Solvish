@@ -305,7 +305,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Image = global::Solvish.Properties.Resources.signup_vector;
             this.pictureBox3.Location = new System.Drawing.Point(553, 433);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(820, 402);
