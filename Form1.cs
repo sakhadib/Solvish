@@ -31,5 +31,12 @@ namespace Solvish
             f1.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            examform ff = new examform();
+            ff.Show();
+            this.Hide();
+        }
     }
 }
